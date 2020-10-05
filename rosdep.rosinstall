@@ -1,0 +1,5 @@
+- git:
+    local-name: robot_module_msgs
+    #uri: https://github.com/ReconCycle/robot_module_msgs
+    uri: git@github.com:ReconCycle/robot_module_msgs.git
+    version: master

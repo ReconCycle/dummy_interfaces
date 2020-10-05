@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dummy_interfaces</name>
+  <version>0.1.0</version>
+  <description>The dummy_interfaces package contains the ReconCell's
+   most common motion action servers for testing. These dummy action servers do
+   not produce robot motions.</description>
+
+  <maintainer email="timotej.gaspar@ijs.si">tgaspar</maintainer>
+  <license>BSD</license>
+
+  <url type="website">https://repo.ijs.si/reconcell/robot_module</url>
+  <author email="timotej.gaspar@ijs.si">Timotej Gaspar</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>actionlib</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>robot_module_msgs</depend>
+
+  <build_depend>rostest</build_depend>
+
+</package>

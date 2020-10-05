@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+<include file="$(find dummy_interfaces)/launch/main_robot.launch" >
+    <arg name="robot_namespace" default="panda_1"/>
+</include>
+<include file="$(find dummy_interfaces)/launch/second_robot.launch" >
+    <arg name="robot_namespace" default="panda_2"/>
+</include>
+</launch>

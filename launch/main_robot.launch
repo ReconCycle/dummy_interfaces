@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- the idea is, that here we can load previously defined or learned parameters of a cell -->
+<!-- <rosparam command="load" file="$(find robot_module)/params/params.yaml" /> -->
+<arg name="robot_namespace" default="panda_1"/>
+
+<group ns="$(arg robot_namespace)">
+	<node name="cart_lin_task_action_server" pkg="dummy_interfaces" type="dummy_cart_lin_task_action_server.py" required="true" output="screen" />
+	<node name="cart_trap_vel_action_server" pkg="dummy_interfaces" type="dummy_cart_trap_vel_action_server.py" required="true" output="screen" />
+	<node name="joint_trap_vel_action_server" pkg="dummy_interfaces" type="dummy_joint_trap_vel_action_server.py" required="true" output="screen" />
+	<node name="set_robot_tool_service" pkg="dummy_interfaces" type="dummy_set_robot_tool_service.py" required="true" output="screen" />
+</group>
+
+</launch>
+
