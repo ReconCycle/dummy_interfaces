@@ -2,8 +2,8 @@
 #
 # Action server for P2P motion of the robot to a desired pose with speed percentage.
 #
-# Authors: Barry Ridge, Timotej Gaspar
-# E-mail: {barry.ridge, timotej.gaspar}@ijs.si
+# Authors: Timotej Gaspar
+# E-mail: timotej.gaspar AT ijs.si
 #
 
 

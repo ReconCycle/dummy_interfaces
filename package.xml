@@ -2,14 +2,14 @@
 <package format="2">
   <name>dummy_interfaces</name>
   <version>0.1.0</version>
-  <description>The dummy_interfaces package contains the ReconCell's
+  <description>The dummy_interfaces package contains the ReconCycle's
    most common motion action servers for testing. These dummy action servers do
    not produce robot motions.</description>
 
   <maintainer email="timotej.gaspar@ijs.si">tgaspar</maintainer>
   <license>BSD</license>
 
-  <url type="website">https://repo.ijs.si/reconcell/robot_module</url>
+  <url type="website">https://github.com/ReconCycle</url>
   <author email="timotej.gaspar@ijs.si">Timotej Gaspar</author>
 
 
