@@ -55,7 +55,7 @@ def joint_trap_motion_test():
 def cart_trap_motion_test():
     # Creates the SimpleActionClient, passing the type of the action
     # (CartTrapVelAction) to the constructor.
-    client = actionlib.SimpleActionClient('cart_trap_vel_action', robot_module_msgs.msg.CartTrapVelAction)
+    client = actionlib.SimpleActionClient('cart_trap_vel_action_server', robot_module_msgs.msg.CartTrapVelAction)
 
     # Waits until the action server has started up and started
     # listening for goals.
@@ -86,7 +86,7 @@ def cart_trap_motion_test():
 def cart_lin_motion_test():
     # Creates the SimpleActionClient, passing the type of the action
     # (CartLinTaskAction) to the constructor.
-    client = actionlib.SimpleActionClient('cart_lin_task_action', robot_module_msgs.msg.CartLinTaskAction)
+    client = actionlib.SimpleActionClient('cart_lin_task_action_server', robot_module_msgs.msg.CartLinTaskAction)
 
     # Waits until the action server has started up and started
     # listening for goals.
